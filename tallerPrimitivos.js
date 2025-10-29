@@ -48,3 +48,26 @@ if (numeroPedido < 0 ) {
 } else {
     console.log("El numero es positivo.");
 }
+
+// Bucle while
+
+//Ejercicio 1
+let contadorMaximo = parseInt(prompt("Escriba un número para contar hasta él: "));
+let contador = 0;
+while(contador < contadorMaximo){
+    console.log(contador);
+    contador += 1;
+}
+//Ejercicio 2
+let contraseña = 1234;
+let contraseñaIngresada = parseInt(prompt("Ingrese su contraseña: "));
+
+while (contraseña !== contraseñaIngresada) {
+    console.log("Contraseña equivocada!");
+    contraseñaIngresada = parseInt(prompt("Ingrese su contraseña: "));
+} 
+if (contraseña === contraseñaIngresada) 
+    console.log("Contraseña correcta!.");
+
+    
+    
