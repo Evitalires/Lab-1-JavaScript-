@@ -53,7 +53,7 @@ if (numeroPedido < 0 ) {
 
 //Ejercicio 1
 let contadorMaximo = parseInt(prompt("Escriba un número para contar hasta él: "));
-let contador = 0;
+let contador = 1;
 while(contador < contadorMaximo){
     console.log(contador);
     contador += 1;
@@ -71,3 +71,17 @@ if (contraseña === contraseñaIngresada)
 
     
     
+//Bucle for
+
+//Ejercicio 1
+for (let i = 0; i < 10 ; i++) {
+    console.log(i+1);
+}
+
+//Ejercicio 2
+let tablaMultiplicar = parseInt(prompt("Escriba un número para mostrar su tabla de multiplicación: "));
+
+for (let index = 1; index < 11; index++) {
+    console.log(tablaMultiplicar, " * ", index, " = ", tablaMultiplicar*index);
+    
+}
